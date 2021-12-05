@@ -10,4 +10,8 @@ function  getLines(solution, filename){
     return file.split('\n')
 }
 
-export { getLines }
+function getInput(solution, filename) {
+    return fs.readFileSync(path.join(__dirname,'../',solution, filename), 'utf8')
+}
+
+export { getLines, getInput }
