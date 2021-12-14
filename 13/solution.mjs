@@ -1,4 +1,3 @@
-import { createCipheriv } from 'crypto'
 import {getInput} from '../util/getLines.mjs'
 import fs from 'fs'
 
